@@ -16,13 +16,14 @@ public class TriangleClassifier {
               System.out.print("This is an equilateral triangle.");
           }else if(a==b||a==c||b==c){
               System.out.print("This is an isosceles triangle.");
-          }else if(a*a==b*b+c*c||b*b==a*a+c*c||c*c==a*a+b*b){
+          }/*else if(a*a==b*b+c*c||b*b==a*a+c*c||c*c==a*a+b*b){
+              System.out.print("This is a right triangle.");
+          }*/else{
               System.out.print("This is a scalene triangle.");
-          }else{
-              System.out.print("This is a normal triangle.");
           }
       }else{
           System.out.print("These sides cannot form a triangle.");
       }
     }
 }
+
